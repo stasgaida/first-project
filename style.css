@@ -1,0 +1,6 @@
+div {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
