@@ -1,9 +1,91 @@
-body {
-    width: 60px;
+
+.page {
+    font-family:  'Helvetica Neue', Arial, sans-serif;
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0;
 }
-div {
-    background-color: brown;
+
+
+.header {
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    position: relative;
+    
+}
+
+.logo { width: 228px;
+    height: 32px;
+
+}
+
+.logo_place_header {
+    background-image: url(file:///C:/Users/Admin/AppData/Local/Temp/Rar$DIa18236.42124/logo_place_header.svg);
+    background-size: cover;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    z-index: 2;
+}
+
+.header__tittle {
+    width: 730px;
+    margin-left: 64px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.header_tittle-item {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    min-height: 600px;
+    max-height: 756px;
+    align-items: center;
+    font-size: 102px;
+    font-weight: 600;
+    line-height: 96px;
+    margin: 0;
+    z-index: 3;
+
+}
+
+.header__subtittle {
+    margin: 0 0 30px 64px;
+    width: 388px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.header_subtittle-text {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    z-index: 4;
+    
+}
+
+.header__main-illustration {
+    position: absolute;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+}
+
+.two_illustration {
+    height: 608px;
+    width: 765px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    z-index: 1
 }
